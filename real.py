@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import threading
 import time
-import os  # Added to ensure process handling works across platforms
+import os  # Added to ensure process handling works across platforms...
 
 class ProcessMonitor:
     def _init_(self, root):
